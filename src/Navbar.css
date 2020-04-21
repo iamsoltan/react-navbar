@@ -1,0 +1,50 @@
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 30px;
+}
+.header-container {
+  max-width: 1065px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.header-container a {
+  text-decoration: none;
+  color: #ababab;
+  margin: 10px;
+}
+.header-container a:hover {
+  color: rgb(0, 179, 155);
+}
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-left: -101px;
+  padding: 5px;
+  width: 220px;
+  box-shadow: 0 5px 10px 0 #bdbab5;
+}
+.dropdown-btn {
+  position: relative;
+}
+.dropdown-btn:hover .submenu {
+  display: block;
+}
+.fright{
+    margin-right: auto;
+}
+
+
+ul li{
+    list-style-type:none;
+    margin: 10px;
+    }
