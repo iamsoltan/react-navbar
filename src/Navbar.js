@@ -7,17 +7,21 @@ function Navbar() {
     <div className="header">
       <div className="header-container">
         <div className="fright">
-          <img src={logo} width=" 268px" height="33px" alt="logo_petit" />
+          <img
+            src={logo}
+            className="App-logo"
+            width=" 268px"
+            height="33px"
+            alt="logo_petit"
+          />
         </div>
         <div className="hovering">
-          {" "}
           <a href="/#">About us</a>
         </div>
         <div className="hovering">
           <a href="/#">Career</a>
         </div>
         <div className="hovering dropdown-btn">
-          {" "}
           <a href="/#">Bootcamps</a>
           <ul className="submenu">
             <li>
